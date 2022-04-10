@@ -2,6 +2,8 @@ package br.com.prog2.javaIO;
 
 import java.util.Scanner;
 
+import br.com.prog2.util.DataPadraoBrasil;
+
 public class CadastraAlunoScanner {
 
 	public static void main(String[] args) {
@@ -19,7 +21,9 @@ public class CadastraAlunoScanner {
 		String mes = leitor.next();
 		System.out.print("Digite o ano do nascimento: ");
 		String ano = leitor.next();
-		
+		DataPadraoBrasil dataDeNascimento = new DataPadraoBrasil(dia, mes, ano);
+		Aluno aluno = new Aluno(matricula,nome,dataDeNascimento);
+		leitor.close();
 		
 	}
 
