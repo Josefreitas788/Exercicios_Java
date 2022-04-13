@@ -1,8 +1,8 @@
- package br.prog2.encapsulamento1;
+ package br.Encapsulamento.encapsulamento1;
 
 import java.time.LocalDate;
 
-import br.prog2.encapsulamento2.PessoaJuridica;
+import br.Encapsulamento.encapsulamento2.PessoaJuridica;
 
 //Classe PessoaFisica
 public class PessoaFisica extends Cliente{
